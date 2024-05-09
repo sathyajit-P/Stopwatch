@@ -1,0 +1,43 @@
+body{
+    margin:0;
+} 
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightgreen;
+    
+}
+
+#watch{
+    font-size: 400%;
+    font-weight: bold;
+    font-family: monospace; 
+}
+
+.buttons button{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: red;
+}
+
+.buttons #start{
+    background-color: yellow;
+}
+
+.buttons #stop{
+    background-color: yellow;
+}
+
+.buttons #reset{
+    background-color: yellow;
+}
+
